@@ -45,12 +45,12 @@ body {
     .flyo {
       align-self: center;
       padding: 15% 8%;
-      background: url("/images/bg-desktop.svg") bottom center/100% 50vh fixed no-repeat var(--color-very-dark-blue); } }
+      background: url("/images/bg-desktop.svg") bottom center/100% 50% fixed no-repeat var(--color-very-dark-blue); } }
   @media only screen and (max-width: 23.47em), (max-width: 31.25em) {
     .flyo {
       flex-direction: column;
       padding: 10% 5%;
-      background: url("/images/bg-mobile.svg") cover no-repeat; } }
+      background: url("/images/bg-mobile.svg") cover; } }
 
 .flyo-tool {
   display: flex;

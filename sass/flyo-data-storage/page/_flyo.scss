@@ -11,14 +11,14 @@
   @media only screen and (max-width: 81.25em) {
     align-self: center;
     padding: 15% 8%;
-    background: url('/images/bg-desktop.svg') bottom center / 100% 50vh fixed
+    background: url('/images/bg-desktop.svg') bottom center / 100% 50% fixed
       no-repeat var(--color-very-dark-blue);
   }
 
   @media only screen and (max-width: 23.47em), (max-width: 31.25em) {
     flex-direction: column;
     padding: 10% 5%;
-    background: url('/images/bg-mobile.svg') cover no-repeat;
+    background: url('/images/bg-mobile.svg') cover;
   }
 }
 
