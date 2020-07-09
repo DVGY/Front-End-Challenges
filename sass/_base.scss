@@ -11,15 +11,16 @@
 
   --color-white: #ffffff;
 
-  --gradient-1: linear-gradient(
-    to right,
-    hsl(6, 100%, 80%),
-    hsl(335, 100%, 65%)
-  );
-
   /* 
 1. background:   rgb(255,163,153);
 2. background: linear-gradient(90deg, rgba(255,163,153,1) 0%, rgba(255,77,151,1) 100%);*/
+
+  /* article preview base color */
+  --article-very-dark-grayish-blue: hsl(217, 19%, 35%);
+
+  --article-desaturated-dark-blue: hsl(214, 17%, 51%);
+  --article-grayish-blue: hsl(212, 23%, 69%);
+  --article-light-grayish-blue: hsl(210, 46%, 95%);
 }
 
 /*-----------------Base settings-------------------------*/
@@ -39,9 +40,14 @@ html {
   box-sizing: border-box;
 }
 body {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  line-height: 1.6;
-
   height: 100vh;
+}
+.touch-modify {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
